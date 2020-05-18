@@ -98,6 +98,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
+  - webpack.config.js
+  - package.json
+  - package-lock.json
+  - README.md
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/

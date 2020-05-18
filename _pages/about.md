@@ -28,7 +28,7 @@ from user Tao who helped pioneer the deck.
 ## About NicFitMTG.com
 
 This site, NicFitMTG.com is created and maintained by a few users in the [Nic Fit Discord](https://discordapp.com/invite/5R6KBa5).
-The site source is available on GitHub and it is hosted by GitHub Pages.
+The site source is available on [GitHub](https://github.com/davidfischer/nicfitmtg) and it is hosted by GitHub Pages.
 If you're interested in helping out or otherwise contributing to the site,
 the best way is to get in touch in the Nic Fit Discord or in a GitHub issue.
 
