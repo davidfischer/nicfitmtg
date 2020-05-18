@@ -1,0 +1,8 @@
+{% assign author = site.authors | where: 'short_name', post.author | first %}
+{%- if author -%}
+  <span class="author">
+    <a href="{{ author.url }}">{{ author.name | escape }}</a>
+  </span>
+{%- else -%}
+  <span class="author">{{ post.author | escape }}</span>
+{%- endif -%}

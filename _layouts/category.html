@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign filtered_posts = site.posts | where: 'category', page.short_name %}
+
+<div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" style="background: linear-gradient(to left, rgba(0,0,0,0), #343a40), url('{{ page.image }}') top right/cover;">
+  <h1>{{ page.name | escape }}</h1>
+</div>
+
+<div class="row">
+  <div class="col-md-8">
+    {% for post in filtered_posts %}
+      {%- include post-item.html -%}
+    {% endfor %}
+  </div>
+  <aside class="col-md-4">
+    {%- if content -%}
+    <div class="p-4 mb-3 bg-light rounded">
+      <h4>{{ page.name | escape }}</h4>
+      {{ content }}
+    </div>
+    {%- endif -%}
+  </aside>
+</div>

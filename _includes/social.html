@@ -1,0 +1,16 @@
+<ul class="list-inline">
+  {%- if site.social.twitter -%}
+    <li class="list-inline-item">
+      <a rel="me" href="https://twitter.com/{{ site.social.twitter | cgi_escape | escape }}" title="@{{ site.social.twitter | escape }}">
+        <i class="fab fa-2x fa-twitter" aria-hidden="true"></i>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if site.social.discord -%}
+    <li class="list-inline-item">
+      <a rel="me" href="{{ site.social.discord }}" title="NicFit Discord">
+        <i class="fab fa-2x fa-discord" aria-hidden="true"></i>
+      </a>
+    </li>
+  {%- endif -%}
+</ul>

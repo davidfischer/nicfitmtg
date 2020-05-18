@@ -1,0 +1,27 @@
+/* Override bootstrap variables here */
+
+$font-family-serif:           "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+
+// Tighter borders than usual
+$border-radius:               .15rem;
+$border-radius-lg:            $border-radius;
+$border-radius-sm:            $border-radius;
+
+// Make the tooltips totally opaque as we're using them for card mouseovers
+$tooltip-opacity:             1;
+
+$small-font-size: 87.5%;
+
+$primary:       #009547;
+//$success:       #65a667;
+//$info:          #9e919c;
+//$warning:       #f44336;
+//$danger:        #f44336;
+
+
+//--primary: #21c87a;
+//--secondary: #646f79;
+//--success: #21c87a;
+//--info: #00dffc;
+//--warning: #ffbc42;
+//--danger: #da4b48;

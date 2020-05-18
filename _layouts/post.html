@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{%- assign post = page -%}
+{% assign author = site.authors | where: 'short_name', post.author | first %}
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" style="background: linear-gradient(to left, rgba(0,0,0,0), #343a40), url('{{ post.image }}') top right/cover;">
+    <h1 itemprop="name headline">{{ post.title | escape }}</h1>
+    <ul class="list-inline">
+      <li class="list-inline-item">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.long_date_format }}</time>
+      </li>
+      <li class="list-inline-item">//</li>
+      <li class="list-inline-item" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        {%- include author-link.html -%}
+      </li>
+    </ul>
+    {%- if post.seo.date_modified -%}
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <strong>
+            <span>Updated </span>
+            <time datetime="{{ post.seo.date_modified | date_to_xmlschema }}">{{ post.seo.date_modified | date: site.long_date_format }}</time>
+          </strong>
+        </li>
+      </ul>
+    {%- endif -%}
+  </div>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

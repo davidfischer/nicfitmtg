@@ -1,0 +1,14 @@
+@import "_variables.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+
+// Include Font Awesome
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Include the mana symbol font
+// https://github.com/andrewgioia/Mana
+$ms-font-path: "~mana-font/fonts";
+@import "~mana-font/sass/mana.scss";
+
+@import "theme";

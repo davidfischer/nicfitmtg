@@ -1,0 +1,147 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-serif;
+  font-style: italic;
+}
+h2, h3, h4 {
+  border-bottom: 0.2rem solid $primary;
+}
+
+
+header {
+  text-align: center;
+
+  .brand {
+    img {
+      width: 250px;
+    }
+  }
+
+  nav {
+    border-top: 0.1rem solid $primary;
+    border-bottom: 0.1rem solid $primary;
+    margin-bottom: 1rem;
+
+    a.nav-link {
+      text-transform: uppercase;
+      font-size: $font-size-lg;
+      font-weight: $font-weight-light;
+
+      &:hover, &:active, &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+main {
+  min-height: 65vh;
+}
+
+.jumbotron {
+  h1 {
+    border: none;
+  }
+  a {
+    color: $white;
+    &:visited, &:hover, &:active {
+      color: $white;
+    }
+  }
+}
+
+.embed-responsive {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-item {
+  h2, h3, h4, h5, h6 {
+    border: none;
+    a {
+      color: $body-color;
+      &:visited, &:hover, &:active {
+        color: $body-color;
+      }
+    }
+  }
+}
+
+// Styling of cards and links to cards
+a.mtgcardimglink {
+  img {
+    // 150px fits 2 across with margin on mobile
+    max-width: 150px !important;
+    margin: 2px;
+  }
+}
+.mtgcardlink {
+  color: $body-color;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.mtgcardtooltip {
+  max-width: 150px !important;
+}
+.mtghand {
+  text-align: center;;
+  margin-bottom: 1rem;
+}
+
+article.post {
+  h2 {
+    margin-top: 2rem;
+  }
+
+  h3, h4, h5, h6 {
+    font-family: $font-family-sans-serif;
+    border: 0;
+    font-style: normal;
+  }
+
+  img.img-fluid {
+    // .img-fluid already has max-width:100% but center it just in case
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+.author-about {
+  img {
+    max-width: 100px;
+  }
+}
+
+footer {
+  padding: 2.5rem 0;
+  margin-top: 5rem;
+  color: $text-muted;
+  text-align: center;
+  background-color: $gray-200;
+  border-top: .05rem solid $gray-400;
+
+  li {
+    margin-left: $spacer;
+    margin-right: $spacer;
+
+    a {
+      // Hover, Active inherit the value below
+      color: $text-muted;
+      &:visited {
+        color: $text-muted;
+      }
+      &:hover, &:active {
+        color: $gray-800;
+      }
+    }
+  }
+
+  a {
+    color: $gray-800;
+    &:visited, &:hover, &:active {
+      color: $gray-800;
+    }
+  }
+}

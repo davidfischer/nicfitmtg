@@ -1,0 +1,27 @@
+<div class="post-item row no-gutters border rounded flex-md-row mb-4 shadow-sm">
+  <div class="col p-4 d-flex flex-column">
+    {%- for cat in post.category limit:1 -%}
+      {% assign category = site.categories | where: 'short_name', cat | first %}
+      <p class="mb-2"><strong><a class="text-primary" href="{{ category.url }}">{{ category.name }}</a></strong></p>
+    {%- endfor -%}
+
+    <h3 class="mb-2">
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h3>
+    <ul class="list-inline text-muted mb-2 small">
+      <li class="list-inline-item">
+        <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.short_date_format }}</time>
+      </li>
+      <li class="list-inline-item text-muted">//</li>
+      <li class="list-inline-item">
+        {%- include author-link.html -%}
+      </li>
+    </ul>
+    <p class="mb-0">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+  </div>
+
+  <div class="col-3 d-none d-lg-block p-2">
+    <div class="h-100 w-100 rounded" {% if post.image %}style="background: url('{{ post.image }}') top right/cover;"{% endif %}>
+    </div>
+  </div>
+</div>

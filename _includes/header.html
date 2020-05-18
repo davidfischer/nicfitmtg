@@ -1,0 +1,31 @@
+<header class="container">
+
+  <div class="brand py-3">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}" title="{{ site.title | cgi_escape | escape }}">
+      <img src="{{ "/assets/img/nicfitmtg.svg" | relative_url }}" alt="{{ site.title | cgi_escape | escape }}">
+    </a>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <ul class="navbar-nav mt-2 mt-lg-0 w-100 nav-fill">
+      {%- for header_page in site.header_pages -%}
+        <li class="nav-item flex-fill{% if header_page.submenu %} dropdown{% endif %}">
+          {%- if header_page.page -%}
+            {%- assign my_page = site.pages | where: "path", header_page.page | first -%}
+            <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ header_page.title | escape }}</a>
+          {%- elsif header_page.url -%}
+            <a class="nav-link" href="{{ header_page.url }}">{{ header_page.title | escape }}</a>
+          {%- elsif header_page.submenu -%}
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-{{ header_page.title | downcase | replace: " ", "-" |escape }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ header_page.title | escape }}</a>
+            <div class="dropdown-menu" aria-labelledby="navbar-dropdown-{{ header_page.title | downcase | replace: " ", "-" |escape }}">
+              {%- for subpage in header_page.submenu -%}
+                {%- assign my_subpage = site.pages | where: "path", subpage.page | first -%}
+                <a class="dropdown-item" href="{{ my_subpage.url | relative_url }}">{{ subpage.title | escape }}</a>
+              {%- endfor -%}
+            </div>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+</header>

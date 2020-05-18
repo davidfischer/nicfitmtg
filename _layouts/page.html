@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post">
+    
+  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" style="background: linear-gradient(to left, rgba(0,0,0,0), #343a40), url('{{ page.image }}') top right/cover;">
+    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    {%- if page.seo.date_modified -%}
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <strong>
+            <span>Updated </span>
+            <time datetime="{{ page.seo.date_modified | date_to_xmlschema }}">{{ page.seo.date_modified | date: site.long_date_format }}</time>
+          </strong>
+        </li>
+      </ul>
+    {%- endif -%}
+  </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
