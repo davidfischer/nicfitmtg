@@ -23,6 +23,8 @@ description: Legacy Nic Fit
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+destination: ./build
+
 short_date_format: "%b %e"
 long_date_format: "%b %e, %Y"
 
