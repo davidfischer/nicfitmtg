@@ -79,6 +79,7 @@ a.mtgcardimglink {
   color: $body-color;
   text-decoration: underline;
   text-decoration-style: dotted;
+  white-space: nowrap;
 }
 .mtgcardtooltip {
   max-width: 150px !important;
@@ -86,6 +87,41 @@ a.mtgcardimglink {
 .mtghand {
   text-align: center;;
   margin-bottom: 1rem;
+}
+.mtgdeck {
+  // Uses CSS column layout to do a multi-column layout
+  // where each column is at least 350px wide
+  // This results in 3 columns at very wide widths and 1 column on mobile
+  margin-bottom: 2rem;
+  columns: 350px;
+  column-gap: 1rem;
+
+  table {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 1rem;
+
+    td.table-cell-quantity {
+      text-align: right;
+      width: 40px;
+    }
+    td {
+      vertical-align: top;
+      padding-left: 1rem;
+    }
+
+    a.mtgcardlink {
+      text-decoration: none !important;
+      // Allow links to wrap here for very long card names
+      white-space: normal;
+    }
+  }
+
+  .total-heading {
+    column-span: all;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
 }
 
 article.post {
