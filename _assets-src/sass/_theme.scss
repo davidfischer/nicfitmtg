@@ -51,6 +51,7 @@ main {
 
 .embed-responsive {
   max-width: 500px;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -107,6 +108,7 @@ a.mtgcardimglink {
     }
     td {
       vertical-align: top;
+      padding: 0;
       padding-left: 1rem;
     }
 
