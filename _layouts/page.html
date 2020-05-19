@@ -3,8 +3,8 @@ layout: default
 ---
 <article class="post">
     
-  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" style="background: linear-gradient(to left, rgba(0,0,0,0), #343a40), url('{{ page.image }}') top right/cover;">
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" style="background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.5), #343a40), url('{{ page.image }}') top right/cover;">
+    <h1>{{ page.title | escape }}</h1>
     {%- if page.seo.date_modified -%}
       <ul class="list-inline">
         <li class="list-inline-item">
