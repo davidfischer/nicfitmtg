@@ -1,4 +1,7 @@
 # Add additional "Tags" that render links to cards, images of cards, or whole decks.
+# These tags can be used in .html or .md files as needed.
+#
+# For more info on Jekyll/Liquid tags, see https://jekyllrb.com/docs/liquid/tags/
 #
 # Here's some examples of linking to specific cards:
 #  {% mtgcardlink Veteran Explorer %}
@@ -14,9 +17,16 @@
 #    4 Cabal Therapy
 #    4 Green Sun's Zenith
 #    ...
-#  {% endmtgdeck %}
+#  {% endmtghand %}
 #
-# For more info on Jekyll/Liquid tags, see https://jekyllrb.com/docs/liquid/tags/
+# Here's an example to render a full deck of cards
+#  {% mtgdeck %}
+#  Veteran Explorer
+#  Cabal Therapy
+#  ....
+#  SB: 4 Leyline of the Void
+#  SB: 2 Veil of Summer
+#  {% endmtgdeck %}
 #
 # I'm a pretty poor Ruby developer so please forgive me...
 require 'erb'
@@ -217,8 +227,149 @@ module Jekyll
       renderer.result(binding).strip
     end
   end
+
+  # Renders a full deck of cards
+  #
+  # Examples:
+  #  {% mtgdeck %}
+  #  Veteran Explorer
+  #  Cabal Therapy
+  #  ....
+  #  SB: 4 Leyline of the Void
+  #  SB: 2 Veil of Summer
+  #  {% endmtgdeck %}
+  class RenderDeckBlock < Liquid::Block
+
+    TEMPLATE = %{
+      <div class="mtgdeck">
+        <% deck.each do |type, cards| %>
+          <% if cards.length > 0 %>
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2"><%= type %> (<%= totals[type] %>)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% cards.each do |card_quantity| %>
+                  <tr>
+                    <td class="table-cell-quantity"><%= card_quantity[:quantity] %></td>
+                    <td class="table-cell-card">
+                      <a class="mtgcardlink"
+                         href="<%= card_quantity[:card]["scryfall_uri"] %>"
+                         data-mtg-cardname="<%= card_quantity[:card]["name"] %>"
+                         data-mtg-id="<%= card_quantity[:card]["id"] %>"
+                         data-mtg-scryfall-url="<%= card_quantity[:card]["scryfall_uri"] %>"
+                         data-mtg-image-url="<%= card_quantity[:card]["image_url"] %>"
+                         data-mtg-tcgplayer-id="<%= card_quantity[:card]["tcgplayer_id"] %>"
+                         data-mtg-mtgo-id="<%= card_quantity[:card]["mtgo_id"] %>"
+                      ><%= card_quantity[:card]["name"] %></a>
+                    </td>
+                  </tr>
+                <% end %>
+              </tbody>
+            </table>
+          <% end %>
+        <% end %>
+
+        <p class="total-heading"><%= totals[:Total] %> Cards</p>
+      </div>
+    }
+
+    def render(context)
+      text = super
+
+      # Hashes have guaranteed order starting at Ruby 1.9
+      deck = {
+        Creatures: [],
+        Planeswalkers: [],
+        Spells: [],
+        Artifacts: [],
+        Enchantments: [],
+        Lands: [],
+        Sideboard: [],
+      }
+
+      totals = {
+        Creatures: 0,
+        Planeswalkers: 0,
+        Spells: 0,
+        Artifacts: 0,
+        Enchantments: 0,
+        Lands: 0,
+        Sideboard: 0,
+        Total: 0,  # includes sideboard
+      }
+
+      for line in text.split("\n") do
+        line = line.strip
+        is_sideboard = false
+
+        if line.empty? or line.start_with?("//")
+          next
+        end
+
+        if line.start_with?("SB:")
+          is_sideboard = true
+          line.sub!("SB:", "")
+          line = line.strip
+        end
+
+        elements = line.split(" ", 2)
+        if elements.length == 1
+          raise "Invalid deck line '#{line}' - should be of the form '4 Veteran Explorer'!"
+        end
+        quantity = Integer(elements[0])
+        card_name = elements[1]
+
+        card = MTGCARDS[card_name]
+        if not card
+          raise "Invalid card '#{card_name}'!"
+        end
+        card["image_url"] = get_card_image_url(card)
+
+        data = {quantity: quantity, card: card}
+
+        if is_sideboard
+          deck[:Sideboard].push(data)
+        elsif card["type_line"].include?("Creature")
+          deck[:Creatures].push(data)
+        elsif card["type_line"].include?("Planeswalker")
+          deck[:Planeswalkers].push(data)
+        elsif card["type_line"].include?("Instant") or card["type_line"].include?("Sorcery")
+          deck[:Spells].push(data)
+        elsif card["type_line"].include?("Artifact")
+          deck[:Artifacts].push(data)
+        elsif card["type_line"].include?("Enchantment")
+          deck[:Enchantments].push(data)
+        elsif card["type_line"].include?("Land")
+          deck[:Lands].push(data)
+        else
+          raise "Unknown card type for '#{card_name}'!"
+        end
+      end
+
+      # Sort the cards by name within each card type section
+      deck.each do |type, cards|
+        cards.sort! {|a, b| a[:card]["name"] <=> b[:card]["name"]}
+      end
+
+      # Get totals for each type and the deck as a whole
+      deck.each do |type, cards|
+        cards.each do |card_quantity|
+          quantity = card_quantity[:quantity]
+          totals[:Total] += quantity
+          totals[type] += quantity
+        end
+      end
+
+      renderer = ERB.new(TEMPLATE)
+      renderer.result(binding).strip
+    end
+  end
 end
 
 Liquid::Template.register_tag('mtgcardlink', Jekyll::RenderCardLinkTag)
 Liquid::Template.register_tag('mtgcardimg', Jekyll::RenderCardImgTag)
 Liquid::Template.register_tag('mtghand', Jekyll::RenderHandBlock)
+Liquid::Template.register_tag('mtgdeck', Jekyll::RenderDeckBlock)
