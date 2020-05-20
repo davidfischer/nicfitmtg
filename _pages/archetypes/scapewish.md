@@ -17,12 +17,12 @@ because {% mtgcardlink Grove of the Burnwillows %} would interfere with the crit
 Scapewish also might not have as many late game threats as other Nic Fit decks as it already has Scapeshift to close out the game.
 Make no mistake though that cards like {% mtgcardlink Primeval Titan %}
 or {% mtgcardlink Huntmaster of the Fells // Ravager of the Fells | Huntmaster of the Fells %}
-can still win a game pretty quickly.
+can still win a game pretty quickly if unanswered.
 
 The "Wish" part of the name comes from {% mtgcardlink Burning Wish %}
 which provides a wishboard of a redundant Scapeshift that's safe from {% mtgcardlink Surgical Extraction %} effects,
 additional removal like {% mtgcardlink Pyroclasm %} and {% mtgcardlink Toxic Deluge %},
-and possibly a few silver bullets in cards {% mtgcardlink Massacre %} or {% mtgcardlink Slaughter Games %}.
+and possibly a few silver bullets in cards like {% mtgcardlink Massacre %} or {% mtgcardlink Slaughter Games %}.
 
 The variant was pioneered by Sam Castrucci who has been running Scapeshift in Legacy since at least 2012
 and by user Arianrhod in this [2014 thread on The Source](http://www.mtgthesource.com/forums/showthread.php?28548-Primer-Deck-Nic-Fit).
@@ -39,13 +39,11 @@ Huntmaster of the Fells // Ravager of the Fells
 ## How does Scapeshift work?
 
 If you don't play Modern, this is a pretty common question.
-Scapeshift is a "one-card" combo where upon having 7 lands in play, you cast Scapeshift, sacrifice all your lands,
+Scapeshift is a "one card combo" where after getting to 7 lands in play,
+you cast Scapeshift, sacrifice all your lands,
 and get 6 Mountains (duals count) and Valakut, the Molten Pinnacle.
 Each Mountain sees 5 other Mountains and so Valakut triggers 6 times dealing 18 damage which is usually enough.
 If you wait until you have 8 lands, you can get 6 Mountains and 2 Valakuts and deal 36 damage.
-
-It's important to note that lands are chosen and sacrificed on resolution with Scapeshift
-so you don't get blown out if the spell is countered.
 
 One critical difference with Legacy is the presence of {% mtgcardlink Wasteland %}.
 Against an opposing Wasteland, you need an additional land.
@@ -54,12 +52,15 @@ you're left with 5 Mountains and fizzled Valakut triggers.
 For the same reason, it's a good idea to leave a basic Mountain in the deck when comboing off
 in case they have {% mtgcardlink Assassin's Trophy %}.
 
+> It's worth noting that lands are sacrificed on resolution with Scapeshift
+> so you don't get blown out if it is countered.
 
-## A Scapewish Starting Point and Variations
+
+## A Scapewish starting point and variations
 
 In mid-2019, Scapewish was one of the better Nic Fit variants
 and Sam Castrucci piloted the deck to a 3rd/4th place finish in a Legacy 1k tournament.
-His decklist makes for a pretty good starting point for any list
+Sam's decklist makes for a pretty good starting point for any list
 although the latter half of 2019 and 2020 added a number of interesting cards to Legacy
 and Scapewish in particular.
 
@@ -137,7 +138,7 @@ Once the deck has 7-8 lands, every single Burning Wish or Scapeshift requires a 
 
 The deck can also win with {% mtgcardlink Primeval Titan %} fetching a Valakut or two
 and just turning every future land drop into a {% mtgcardlink Lightning Bolt %}
-from just the natural Mountain count without even restoring to the combo.
+from just the natural Mountain count without even resorting to the combo.
 Veteran Explorers function as two bolts!
 
 A very common play from Scapewish is to use the first Burning Wish
@@ -153,7 +154,7 @@ the deck aims to stabilize on the board and can grind out a win even when the co
 ## What are Scapewish's good and bad matchups?
 
 Scapewish feels amazing against any deck that tries to drag the game out beyond turn 5-7.
-By that time, the deck will have made its land drops and assembled the one-card combo.
+By that time, the deck will have made its land drops and assembled the one card combo.
 Midrange decks, even blue ones, feel like one of the best matchups.
 
 In contrast to most Nic Fit variants, Scapewish has a favorable matchup against Miracles and Snow Control.
