@@ -5,6 +5,16 @@ h1, h2, h3, h4, h5, h6 {
 h2, h3, h4 {
   border-bottom: 0.2rem solid $primary;
 }
+blockquote {
+  border-left: 0.5rem solid $primary;
+  padding: 1rem;
+  background-color: $gray-200;
+  font-weight: $font-weight-light;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
 
 
 header {
