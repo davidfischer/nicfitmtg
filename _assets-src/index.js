@@ -13,7 +13,8 @@ $(function () {
     title: function () {
       return $('<img>')
         .attr('class', 'mtgcardtooltip')
-        .attr('src', $(this).attr('data-mtg-image-url'));
+        .attr('src', $(this).attr('data-mtg-image-url'))
+        .attr('crossorigin', 'anonymous');
     },
   });
 });
