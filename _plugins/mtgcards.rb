@@ -139,7 +139,7 @@ module Jekyll
          data-mtg-tcgplayer-id="<%= card["tcgplayer_id"] %>"
          data-mtg-mtgo-id="<%= card["mtgo_id"] %>"
       >
-        <img src="<%= image_url %>" alt="<%= card["name"] %>">
+        <img src="<%= image_url %>" alt="<%= card["name"] %>" crossorigin="anonymous">
       </a>
     }
 
@@ -196,7 +196,7 @@ module Jekyll
              data-mtg-tcgplayer-id="<%= card["tcgplayer_id"] %>"
              data-mtg-mtgo-id="<%= card["mtgo_id"] %>"
           >
-            <img src="<%= card["image_url"] %>" alt="<%= card["name"] %>">
+            <img src="<%= card["image_url"] %>" alt="<%= card["name"] %>" crossorigin="anonymous">
           </a>
         <% end %>
       </div>
