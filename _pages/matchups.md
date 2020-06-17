@@ -83,12 +83,13 @@ or they can sometimes get you with equipment and fliers like {% mtgcardlink Flic
 
 ### Eldrazi Aggro
 Eldrazi feels closer to even although still slightly Nic Fit favored depending on the variant.
-{% mtgcardlink Veteran Explorer %} is typically one-side or close to it and the Vet
+{% mtgcardlink Veteran Explorer %} is typically one-sided or close to it and the Vet
 does a great {% mtgcardlink Moat %} impression by making the opponent think twice about attacking.
 Sticking any threat bigger than a {% mtgcardlink Reality Smasher %} typically closes the door on them.
 
 Eldrazi can still beat you with a very fast start
-and you have to be cautious about keeping hands that rely on too many 1-drops on the draw.
+and you have to be cautious about keeping hands that rely on too many 1-drops on the draw
+due to {% mtgcardlink Chalice of the Void %}.
 {% mtgcardlink Thought-Knot Seer %} is almost always the right name with {% mtgcardlink Cabal Therapy %}
 although a case can be made for Reality Smasher depending on your hand.
 
@@ -131,7 +132,7 @@ so cards like {% mtgcardlink Scavenging Ooze %} in the mid-game are pretty impor
 
 
 ### Stoneblade
-Stoneblade is normally a pretty favorable matchup as Nic Fit creatures typically outclass anything Stoneblad has to offer.
+Stoneblade is normally a pretty favorable matchup as Nic Fit creatures typically outclass anything Stoneblade has to offer.
 {% mtgcardlink Plague Engineer %} has helped immensely as another main deck way to deal with {% mtgcardlink True-Name Nemesis %}.
 {% mtgcardlink Collector Ouphe %} is pretty good here and usually eats an immediate {% mtgcardlink Swords to Plowshares %}.
 
@@ -171,7 +172,7 @@ This matchup is a bit tougher if they have a backup {% mtgcardlink Dark Depths %
 
 
 ### Snow Control/Miracles
-Before 2019, this matchup was almost unwinnable except for Nic Fit combo variants where Miracles was actually a pretty favorable.
+Before 2019, this matchup was almost unwinnable except for Nic Fit combo variants where Miracles was actually a pretty favorable pairing.
 The printing of {% mtgcardlink Field of the Dead %} has helped the matchup immensely and has helped cement
 {% mtgcardlink Primeval Titan %} as the best finisher in Nic Fit.
 The key to the matchup is to not overcommit to the board and try to make sure their sweepers are one for one.
@@ -192,6 +193,7 @@ Primeval Titan
 Field of the Dead
 Phyrexian Tower
 Volrath's Stronghold
+Klothys, God of Destiny
 {% endmtghand %}
 
 
@@ -212,6 +214,7 @@ but they don't get Veil making discard even better.
 {% mtghand %}
 Thoughtseize
 Slaughter Games
+Pyroblast
 {% endmtghand %}
 
 {% mtgcardlink Cabal Therapy %} should basically always name {% mtgcardlink Show and Tell %}.
@@ -235,6 +238,7 @@ Thoughtseize
 Collector Ouphe
 Slaughter Games
 Plague Engineer
+Deafening Silence
 {% endmtghand %}
 
 
@@ -248,6 +252,7 @@ as a solution to {% mtgcardlink Marit Lage %}.
 
 From the sideboard, you want any {% mtgcardlink Assassin's Trophy | Assassin's Trophies %} you have
 and if you're on [BUG]({% link _pages/archetypes/bug-fit.md %}), {% mtgcardlink Unmoored Ego %} is OK although a bit slow.
+{% mtgcardlink Back to Basics %} can also help depending on the exact variant of Depths.
 
 {% mtgcardlink Crop Rotation %} is one of the best cards to name with {% mtgcardlink Cabal Therapy %}
 although Vampire Hexmage isn't bad either. 
@@ -287,11 +292,15 @@ You typically still don't want to side out Therapy as it gives you a sac outlet 
 This matchup borders on unwinnable for most Nic Fit decks and is probably the absolute worst matchup.
 Most Nic Fit decks have nothing that interacts quickly with {% mtgcardlink Cloudpost %}
 and it's also one of the few decks where their threats are bigger.
+BUG lists do frequently run {% mtgcardlink Back to Basics %} and this is a matchup
+where {% mtgcardlink Assassin's Trophy %}, while not great, can disrupt their game plan.
+You can also win against Cloudpost decks by discarding their threats and pressuring the board.
 
 
 ### Elves
-This is one of the few combo matchups that isn't awful although you need fast interaction or you're dead.
-{% mtgcardlink Plague Engineer %} has helped this matchup a lot and {% mtgcardlink Pernicious Deed %} is also a haymaker here.
+This is one of the few combo matchups that isn't completely awful although you need fast interaction or you're dead.
+{% mtgcardlink Plague Engineer %} has helped this matchup a lot
+and {% mtgcardlink Pernicious Deed %} is also a haymaker here although a turn slower.
 If you're on BUG, sticking a {% mtgcardlink Leovold, Emissary of Trest %} can also negate a lot of their ability to come back.
 
 Name {% mtgcardlink Natural Order %} with {% mtgcardlink Cabal Therapy %} as that is in their most explosive hands
@@ -300,6 +309,7 @@ although {% mtgcardlink Glimpse of Nature %} is also not bad.
 {% mtghand %}
 Plague Engineer
 Pernicious Deed
+Punishing Fire
 {% endmtghand %}
 
 
