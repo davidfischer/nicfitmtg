@@ -138,10 +138,10 @@ The impact of {% mtgcardlink Ice-Fang Coatl %} as well as Oko on fair creature m
 where the opponent has flying beaters like Death and Taxes and Delver cannot be overstated.
 {% mtgcardlink Uro, Titan of Nature's Wrath %} has done wonders to help Nic Fit stabilize on life as well.
 
-Most fair Nic Fit decks struggle against decks or the newer Snow Control decks.
+Most fair Nic Fit decks struggle against Miracles or the newer Snow Control decks.
 However, this deck seems a little better suited to that matchup
-by having your own Okos as well as other planeswalkers and Field of the Dead can singlehandedly win that matchup.
-The matchup feels close to even which is a huge improvement.
+by having your own Okos as well as other planeswalkers. Field of the Dead can also singlehandedly win that matchup.
+The matchup feels close to even or even favorable depending on the list which is a huge improvement.
 
 Combo decks continue to be the bane of Nic Fit
 and without running {% mtgcardlink Force of Will %} that doesn't change just by adding blue.
