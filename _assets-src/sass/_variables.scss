@@ -9,6 +9,7 @@ $border-radius-sm:            $border-radius;
 
 // Make the tooltips totally opaque as we're using them for card mouseovers
 $tooltip-opacity:             1;
+$tooltip-max-width:           300px;  // Accommodate larger tooltip hover images
 
 $small-font-size: 87.5%;
 

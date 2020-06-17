@@ -92,11 +92,20 @@ a.mtgcardimglink {
   white-space: nowrap;
 }
 .mtgcardtooltip {
-  max-width: 150px !important;
+  max-width: 240px !important;
 }
 .mtghand {
-  text-align: center;;
+  text-align: center;
   margin-bottom: 1rem;
+
+  &.large {
+    a.mtgcardimglink {
+      img {
+        // Fits 4 across on desktop
+        max-width: 240px !important;
+      }
+    }
+  }
 }
 .mtgdeck {
   // Uses CSS column layout to do a multi-column layout

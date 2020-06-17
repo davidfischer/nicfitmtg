@@ -8,7 +8,7 @@ import './sass/main.scss';
 $(function () {
   $('[data-toggle="tooltip"]').tooltip();
   $('a.mtgcardlink').tooltip({
-    placement: 'auto',
+    placement: 'bottom',
     html: true,
     title: function () {
       return $('<img>')
