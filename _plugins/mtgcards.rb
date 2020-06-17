@@ -185,7 +185,7 @@ module Jekyll
   class RenderHandBlock < Liquid::Block
 
     TEMPLATE = %{
-      <div class="mtghand">
+      <div class="mtghand<% if is_large %> large<% end %>">
         <% cards.each do |card| %>
           <a class="mtgcardimglink"
              href="<%= card["scryfall_uri"] %>"
@@ -201,6 +201,12 @@ module Jekyll
         <% end %>
       </div>
     }
+
+    def initialize(tag_name, markup, tokens)
+       super
+       @markup = markup.strip
+       @is_large = @markup.downcase == "large"
+    end
 
     def render(context)
       text = super
@@ -223,6 +229,7 @@ module Jekyll
         cards.push(card)
       end
 
+      is_large = @is_large
       renderer = ERB.new(TEMPLATE)
       renderer.result(binding).strip
     end
