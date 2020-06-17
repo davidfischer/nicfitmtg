@@ -43,11 +43,13 @@ Gaddock Teeg
 Deafening Silence
 Lost Legacy
 Thoughtseize
+Mindbreak Trap
 {% endmtghand %}
 
 Combo is one of the weakest matchups for Nic Fit so it isn't surprising that a lot of the sideboard is dedicated against it.
 Before the printing of {% mtgcardlink Collector Ouphe %}, matchups like Storm were completely unwinnable game 1 without {% mtgcardlink Gaddock Teeg %}.
-Ouphe is one of the best anti-combo cards and gives Nic Fit a game in a lot of matchups like Urza/Emry, Karn matchups, and even Storm as it shuts off {% mtgcardlink Lion's Eye Diamond %}, {% mtgcardlink Lotus Petal %}, and {% mtgcardlink Chrome Mox %}.
+Ouphe is one of the best anti-combo cards and gives Nic Fit a game in a lot of matchups like Urza/Emry, Karn matchups, and even Storm
+by shutting off {% mtgcardlink Lion's Eye Diamond %}, {% mtgcardlink Lotus Petal %}, and {% mtgcardlink Wishclaw Talisman %}.
 Ouphe has earned a spot in most main decks as a singleton but functionally it has 5 copies due to {% mtgcardlink Green Sun's Zenith %}.
 
 Because Nic Fit uses mana acceleration, {% mtgcardlink Lost Legacy %} effects such as {% mtgcardlink Slaughter Games %}
@@ -61,6 +63,9 @@ Unmoored Ego has the added advantage of being able to name {% mtgcardlink Dark D
 Deafening Silence is very hard for decks like Storm to deal with and can result in them being locked out turn 1.
 It also works well against Infect by preventing them from using multiple pump spells and making sure your removal is good after they use one.
 
+In [BUG Fit]({% link _pages/archetypes/junk-fit.md %}), {% mtgcardlink Mindbreak Trap %} doubles as a very nice piece of combo hate
+and can be easily hard cast due to the ramp in the deck.
+
 ## Graveyard Hate
 
 {% mtghand %}
@@ -70,12 +75,14 @@ Surgical Extraction
 Faerie Macabre
 {% endmtghand %}
 
-Almost all Nic Fit archetypes run {% mtgcardlink Scavenging Ooze %} in the main deck
-and if it isn't in the main, it is definitely in the sideboard. 
-That's because it can singlehandedly lock a deck like Reanimator or Dredge out of the game
-if they stumble at all and it's still a great card even if the opponent isn't on a graveyard deck.
 Nic Fit decks are typically a bit soft to graveyard decks and especially Reanimator
 and they usually dedicate 3-6 sideboard cards to graveyard decks.
+
+Almost all Nic Fit archetypes run {% mtgcardlink Scavenging Ooze %} in the main deck
+and if it isn't in the main, it is definitely in the sideboard.
+With {% mtgcardlink Green Sun's Zenith %}, Nic Fit is effectively running 5 copies.
+Scooze can singlehandedly lock a deck like Reanimator or Dredge out of the game
+if they stumble at all and it's still a great card even if the opponent isn't on a graveyard deck.
 
 After Scooze, most Nic Fit decks run some number of {% mtgcardlink Leyline of the Void %}
 and/or {% mtgcardlink Surgical Extraction %} in the sideboard as well.
@@ -100,7 +107,7 @@ Blue decks and especially Miracles are the bane of Nic Fit and Nic Fit typically
 Between {% mtgcardlink Carpet of Flowers %} and {% mtgcardlink Choke %}, most Nic Fit variants favor Carpet
 as mana denial isn't really in the Nic Fit plan.
 Against basic-heavy blue decks like Miracles, Snow Control, and Stoneblade, Nic Fit pilots typically side out
-some of the {% mtgcardlink Veteran Explorer | Veteran Explorers %} for Carpets as just better ramp. 
+some of the {% mtgcardlink Veteran Explorer | Veteran Explorers %} for Carpets to get one-sided ramp.
 Against Delver decks, Carpet is an additional source of ramp on top of Veteran Explorer to make sure their mana denial plan doesn't work.
 
 Combo variants of Nic Fit like [Rectors]({% link _pages/archetypes/rectors.md %})

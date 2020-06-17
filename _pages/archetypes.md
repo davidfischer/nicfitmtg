@@ -2,9 +2,8 @@
 layout: page
 title: Nic Fit Archetypes
 permalink: /archetypes/
-description: A list of Nic Fit archetypes with a brief overview and discussion of viability
+description: A list of Nic Fit archetypes with a brief overview, discussion of viability, matchups, and a link to more details
 image: "/assets/img/pages/archetypes.jpg"
-
 seo:
   date_modified: 2020-05-17
 ---
@@ -16,6 +15,10 @@ to outright combo decks.
 
 Here, we break these different decks down into fair and combo decks
 and detail some of the different strategies, strengths, and weaknesses of each deck.
+
+For a primer on the deck as a whole,
+this [2014 Nic Fit primer](http://www.mtgthesource.com/forums/showthread.php?28548-Primer-Deck-Nic-Fit)
+on The Source by user Arianrhod is still very worthwhile.
 
 
 ## Established fair archetypes
@@ -37,6 +40,7 @@ BUG has turned into one of the best fair archetypes.
 Some of the main cards that splashing red adds are
 {% mtgcardlink Huntmaster of the Fells // Ravager of the Fells | Huntmaster of the Fells %} and {% mtgcardlink Punishing Fire %}
 in addition to improving sideboards with cards like {% mtgcardlink Pyroblast %}.
+In 2020, it also got {% mtgcardlink Klothys, God of Destiny %} which has proved much better than at first glance.
 Jund has one of the best aggro matchups due to the addition of Punishing Fire
 and the deck can grind out a win in a lot of situations that would be tough for other variants.
 
@@ -61,11 +65,11 @@ however it also has one of the most vulnerable manabases.
 Scapewish is a Legacy take on the Modern {% mtgcardlink Scapeshift %} deck
 that uses Scapeshift and {% mtgcardlink Valakut, the Molten Pinnacle %}
 to attempt to win on the spot when the deck has 7 or 8 lands in play.
-With Nic Fit, that comes quite a bit earlier because of {% mtgcardlink Veteran Explorer %}.
+With Nic Fit, that comes quite a bit earlier than normal because of ramp provided by {% mtgcardlink Veteran Explorer %}.
 The wish part of the name comes from 3-4 {% mtgcardlink Burning Wish | Burning Wishes %}
 which provides a wishboard of a redundant Scapeshift and other great cards.
 The deck has a better matchup against control than many Nic Fit variants
-although it's a little more vulnerable to aggro plans.
+although it's a little more vulnerable to aggro.
 
 
 ## Fringe archetypes
