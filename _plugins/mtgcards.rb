@@ -11,18 +11,25 @@
 #  {% mtgcardimg Cabal Therapy %}
 #  {% mtgcardimg Thragtusk %}
 #
-# Here's some examples of showing a hand of cards:
+# Here's some examples of showing a hand of cards (a series of card images on a line):
 #  {% mtghand %}
-#    4 Veteran Explorer
-#    4 Cabal Therapy
-#    4 Green Sun's Zenith
-#    ...
+#  Veteran Explorer
+#  Cabal Therapy
+#  Green Sun's Zenith
+#  ...
+#  {% endmtghand %}
+#
+# The cards in a hand can be made double size as follows:
+#  {% mtghand large %}
+#  Veteran Explorer
+#  Cabal Therapy
 #  {% endmtghand %}
 #
 # Here's an example to render a full deck of cards
 #  {% mtgdeck %}
-#  Veteran Explorer
-#  Cabal Therapy
+#  4 Veteran Explorer
+#  4 Cabal Therapy
+#  4 Green Sun's Zenith
 #  ....
 #  SB: 4 Leyline of the Void
 #  SB: 2 Veil of Summer
@@ -239,8 +246,8 @@ module Jekyll
   #
   # Examples:
   #  {% mtgdeck %}
-  #  Veteran Explorer
-  #  Cabal Therapy
+  #  4 Veteran Explorer
+  #  4 Cabal Therapy
   #  ....
   #  SB: 4 Leyline of the Void
   #  SB: 2 Veil of Summer
