@@ -4,6 +4,8 @@ on: push
 
 jobs:
   build_and_test:
+    runs-on: ubuntu-16.04
+
     steps:
 
     - name: Checkout
