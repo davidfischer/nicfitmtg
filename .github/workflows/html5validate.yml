@@ -17,6 +17,6 @@ jobs:
     - name: HTML5 Validator
       uses: Cyb3r-Jak3/html5validator-action@v0.4
       with:
-        root: html/
+        root: build/
         log_level: INFO
         extra: --show-warnings
