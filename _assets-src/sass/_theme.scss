@@ -90,6 +90,9 @@ a.mtgcardimglink {
   text-decoration: underline;
   text-decoration-style: dotted;
   white-space: nowrap;
+
+  // Workaround for https://bugs.chromium.org/p/chromium/issues/detail?id=808603
+  text-decoration-skip-ink: none;
 }
 .mtgcardtooltip {
   max-width: 240px !important;
