@@ -42,6 +42,7 @@ Evolutionary Leap
 *MTGO Legacy League 5-0 - June, 2020*
 
 {% mtgdeck %}
+// https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2020-06-27#threpio_-
 1 Nicol Bolas, Planeswalker
 2 Ugin, the Spirit Dragon
 3 Academy Rector

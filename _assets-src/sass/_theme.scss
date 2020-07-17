@@ -158,6 +158,11 @@ article.post {
     font-style: normal;
   }
 
+  h6 {
+    // h6 is used in interviews
+    font-weight: $font-weight-bold;
+  }
+
   img.img-fluid {
     // .img-fluid already has max-width:100% but center it just in case
     display: block;
