@@ -19,21 +19,19 @@ layout: default
   {%- if paginator == nil or paginator.page == 1 -%}
     {% assign post = posts.first %}
     <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" {% if post.image %}style="background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.5), #343a40), url('{{ post.image }}') top right/cover;"{% endif %}>
-      <div class="col-md-6 px-0">
-        <h1>
-          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h1>
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.short_date_format }}</time>
-          </li>
-          <li class="list-inline-item">//</li>
-          <li class="list-inline-item">
-            {%- include author-link.html -%}
-          </li>
-        </ul>
-        <p class="lead my-2">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-      </div>
+      <h1>
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h1>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.short_date_format }}</time>
+        </li>
+        <li class="list-inline-item">//</li>
+        <li class="list-inline-item">
+          {%- include author-link.html -%}
+        </li>
+      </ul>
+      <p class="lead my-2">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
     </div>
   {%- else -%}
     <h1>Older articles - page {{ paginator.page }} of {{ paginator.total_pages }}</h1>
