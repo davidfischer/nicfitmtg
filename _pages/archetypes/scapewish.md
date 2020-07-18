@@ -185,6 +185,6 @@ and cards like Burning Wish allow for a huge number of possible plays on any giv
 Practice definitely makes perfect with this variant.
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kz1XWtShGMU" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/kz1XWtShGMU" allowfullscreen></iframe>
 </div>
 <p class="text-center small mt-2">While this video is a bit dated, Sam Castrucci piloted Scapewish at 2014 Eternal Weekend.</p>

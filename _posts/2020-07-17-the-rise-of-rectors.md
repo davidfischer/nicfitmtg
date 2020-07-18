@@ -248,11 +248,11 @@ Thanks for having me and sorry for writing a "bible" here XD
 
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PKgIhvNKdm8" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/PKgIhvNKdm8" allowfullscreen></iframe>
 </div>
 <p class="text-center small mt-2">A replay video of Overhaul playing Rector Curses to a 6th place finish in June, 2020.</p>
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EAu1p8lukXc" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/EAu1p8lukXc" allowfullscreen></iframe>
 </div>
 <p class="text-center small mt-2">A replay video of Overhaul playing Rector Curses to a 17th place finish in June, 2020.</p>

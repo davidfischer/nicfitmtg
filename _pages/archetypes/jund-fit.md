@@ -193,6 +193,6 @@ Jund Fit will come back as well.
 
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/x1F-wKlaL8Y" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/x1F-wKlaL8Y" allowfullscreen></iframe>
 </div>
 <p class="text-center small mt-2">Julian Knab playing a fair Jund Nic Fit deck through a Legacy league in Fall 2019.</p>
