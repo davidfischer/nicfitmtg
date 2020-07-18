@@ -196,16 +196,16 @@ If you want to play with some of the newest and best cards in the format while s
 this deck is for you.
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WoLvRKqLA0Y" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/WoLvRKqLA0Y" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <p class="text-center small mt-2">Ali Aintrazi playing a BUG Nic Fit list at GP Richmond 2018 facing Eldrazi.</p>
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xhKS46IORx8" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/xhKS46IORx8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <p class="text-center small mt-2">Andrea Mengucci doing a deck tech and league with BUG Nic Fit featuring {% mtgcardlink Natural Order %} back in late 2017.</p>
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Y5JWZJMwiYA" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Y5JWZJMwiYA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <p class="text-center small mt-2">Pleasant Kenobi playing a spicy BUG Nic Fit list with {% mtgcardlink Hydroid Krasis %} and the pair of {% mtgcardlink Pir, Imaginative Rascal %} and {% mtgcardlink Toothy, Imaginary Friend %}.</p>

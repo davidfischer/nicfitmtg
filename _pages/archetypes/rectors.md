@@ -253,11 +253,11 @@ The deck features bigger threats than even most Nic Fit variants,
 and it's a blast to play while still being among the more competitive Nic Fit variants.
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/492SpBo9T0g" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/492SpBo9T0g" allowfullscreen></iframe>
 </div>
 <p class="text-center small mt-2">Allen Yee on 8 Rectors facing Ryan Fisher playing Elves on <a href="https://www.youtube.com/channel/UCZRjwixdkw7TykmWn2Mss2g">90s MTG</a> in June, 2020.</p>
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PjPrBqfWEGU" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/PjPrBqfWEGU" allowfullscreen></iframe>
 </div>
 <p class="text-center small mt-2">Andrea Mengucci playing a league with 8 Rectors shortly after the printing of Arena Rector in Fall of 2018.</p>
