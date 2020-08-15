@@ -2,7 +2,7 @@ name: Jekyll site to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build_and_deploy:
