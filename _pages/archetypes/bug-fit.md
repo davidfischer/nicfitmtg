@@ -6,7 +6,7 @@ description: Overview of BUG Fit, a fair Green-Black-Blue Nic Fit variant. Read 
 image: "/assets/img/pages/bug-fit.jpg"
 
 seo:
-  date_modified: 2020-06-02
+  date_modified: 2020-08-14
 ---
 
 BUG Fit is a fair Green-Black-Blue Nic Fit variant.
@@ -184,6 +184,80 @@ and that means {% mtgcardlink Back to Basics %} can be pretty good.
 Any deck that doesn't run more than 1-2 basics like Lands, Loam, and Delver can be severely punished.
 With the ramp provided by Veteran Explorer, Back to Basics can come down as early as turn 2.
 It also provides an out against {% mtgcardlink Cloudpost %} decks which are very hard to beat for any fair Nic Fit deck.
+
+
+## Variations
+
+### Yorion - Companion
+
+{% mtghand %}
+Yorion, Sky Nomad
+Arcum's Astrolabe
+Baleful Strix
+{% endmtghand %}
+
+Even during the very busted [Lurrus meta]({% link _posts/2020-05-17-nicfit-in-the-lurrus-companion-meta.md %}),
+players found that {% mtgcardlink Yorion, Sky Nomad %} was a great companion to add to the VetEx shell
+and a few players managed to show favorable results with it.
+Since the companion nerf, the deck isn't quite as good as it was but has still put up some good performances
+such as the following list:
+
+#### Yorion BUG Fit by Garrukked
+
+*GenCon Legacy Champs 21st Place - August, 2020*
+
+{% mtgdeck %}
+1 Jace, the Mind Sculptor
+1 Nissa, Vital Force
+3 Oko, Thief of Crowns
+2 Vraska, Golgari Queen
+3 Baleful Strix
+2 Eternal Witness
+4 Ice-Fang Coatl
+1 Leovold, Emissary of Trest
+1 Titania, Protector of Argoth
+2 Uro, Titan of Nature's Wrath
+4 Veteran Explorer
+4 Cabal Therapy
+2 Green Sun's Zenith
+2 Ponder
+3 Abrupt Decay
+2 Assassin's Trophy
+4 Brainstorm
+3 Force of Negation
+4 Force of Will
+4 Arcum's Astrolabe
+2 Bayou
+1 Dryad Arbor
+1 Karakas
+4 Misty Rainforest
+2 Polluted Delta
+2 Prismatic Vista
+3 Snow-Covered Forest
+3 Snow-Covered Island
+2 Snow-Covered Swamp
+2 Tropical Island
+1 Underground Sea
+4 Verdant Catacombs
+1 Windswept Heath
+
+SB: 3 Carpet of Flowers
+SB: 1 Collector Ouphe
+SB: 2 Dead of Winter
+SB: 1 Pernicious Deed
+SB: 1 Scavenging Ooze
+SB: 3 Surgical Extraction
+SB: 3 Veil of Summer
+SB: 1 Yorion, Sky Nomad
+{% endmtgdeck %}
+
+Compared with many of the non-companion lists, there's a few key differences.
+Firstly, there's the additions of {% mtgcardlink Arcum's Astrolabe %} and {% mtgcardlink Baleful Strix %}
+which have clear synergy with Yorion. Secondly, due to the card advantage nature of Yorion,
+these lists tend to run {% mtgcardlink Force of Will %} and {% mtgcardlink Force of Negation %}
+which need fuel in the form of a suite of blue cantrips.
+Yorion BUG Fit tends to have even grindier games than regular BUG
+and they often win by exhausting answers from the opponent's deck.
 
 
 ## Wrapup
