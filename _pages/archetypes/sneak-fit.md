@@ -5,4 +5,4 @@ permalink: /archetypes/sneak-fit/
 image: "/assets/img/pages/sneak-fit.jpg"
 ---
 
-TBD
+Coming soon...
