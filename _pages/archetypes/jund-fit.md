@@ -6,7 +6,7 @@ description: Overview of Jund Fit, a fair Green-Black-Red Nic Fit variant. Read 
 image: "/assets/img/pages/jund-fit.jpg"
 
 seo:
-  date_modified: 2020-06-28
+  date_modified: 2020-08-15
 ---
 
 
@@ -182,6 +182,97 @@ Turbo Depths, Storm, and Show & Tell. It is no surprise that most of the Jund Fi
 Jund Fit usually packs 4-6 grave hate cards with {% mtgcardlink Leyline of the Void %} or {% mtgcardlink Surgical Extraction %} being most common,
 4 or so anti-combo cards ({% mtgcardlink Veil of Summer %} or {% mtgcardlink Cindervines %})
 with anti-blue cards rounding out the rest.
+
+
+## Variations
+
+### Applejacks
+
+{% mtghand %}
+Orcish Lumberjack
+Titania, Protector of Argoth
+Ramunap Excavator
+{% endmtghand %}
+
+Applejacks uses {% mtgcardlink Orcish Lumberjack %} to power out big threats in the very early game.
+The ideal threat is {% mtgcardlink Titania, Protector of Argoth %} who can usually put 10-15 power on the board as early as turn two.
+Applejacks isn't strictly a Nic Fit variant because it does not always rely on {% mtgcardlink Veteran Explorer %} and {% mtgcardlink Cabal Therapy %}.
+However, this primer on Jund Fit would be incomplete without at least a mention of Applejacks.
+
+
+#### Applejacks by Cephenemyia
+
+*MTGO Legacy League 5-0 - July, 2020*
+
+{% mtgdeck %}
+// https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2020-07-25#cephenemyia_-
+1 Caustic Caterpillar
+1 Gilded Goose
+3 Greater Gargadon
+1 Klothys, God of Destiny
+4 Orcish Lumberjack
+1 Plague Engineer
+1 Ramunap Excavator
+2 Rekindling Phoenix
+2 Scavenging Ooze
+2 Shriekmaw
+4 Titania, Protector of Argoth
+1 Veteran Explorer
+3 Green Sun's Zenith
+4 Abrupt Decay
+1 Kolaghan's Command
+3 Punishing Fire
+2 Mazemind Tome
+1 Sylvan Library
+1 Badlands
+2 Bayou
+1 Dryad Arbor
+1 Ghost Quarter
+3 Grove of the Burnwillows
+1 Karakas
+2 Snow-Covered Forest
+1 Snow-Covered Mountain
+1 Snow-Covered Swamp
+3 Taiga
+4 Verdant Catacombs
+4 Wooded Foothills
+
+SB: 2 Blazing Volley
+SB: 1 Force of Vigor
+SB: 2 Mindbreak Trap
+SB: 2 Pithing Needle
+SB: 2 Pyroblast
+SB: 1 Red Elemental Blast
+SB: 3 Surgical Extraction
+SB: 2 Veil of Summer
+{% endmtgdeck %}
+
+
+### Sneak Fit
+
+{% mtghand %}
+Sneak Attack
+Emrakul, the Aeons Torn
+Inferno Titan
+{% endmtghand %}
+
+Sneak Fit is a combo variant of Jund Fit that uses {% mtgcardlink Sneak Attack %}
+to power out game ending creatures like {% mtgcardlink Emrakul, the Aeons Torn | Emrakul %}.
+This is a pretty popular Nic Fit archetype and there's a [separate primer]({% link _pages/archetypes/sneak-fit.md %}) on it.
+
+
+### Scapewish
+
+{% mtghand %}
+Valakut, the Molten Pinnacle
+Scapeshift
+Burning Wish
+Dryad of the Ilysian Grove
+{% endmtghand %}
+
+Scapewish is another combo variant of Jund Fit that uses the ramp from {% mtgcardlink Veteran Explorer %}
+to get to seven or more lands to win with the combo of {% mtgcardlink Scapeshift %} into {% mtgcardlink Valakut, the Molten Pinnacle %}.
+There's also a [separate primer]({% link _pages/archetypes/scapewish.md %}) for this deck.
 
 
 ## Conclusion
