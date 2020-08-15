@@ -7,7 +7,7 @@ This is the source behind the website https://nicfitmtg.com.
 
 The site is built as a static site using [Jekyll](https://jekyllrb.com)
 and hosted for free by [GitHub pages](https://pages.github.com/).
-The site is automatically built and updated when there are commits on the master branch
+The site is automatically built and updated when there are commits on the main branch
 although it can take up to 5 minutes.
 
 
