@@ -205,7 +205,7 @@ Nighthawk Scavenger
 
 {% mtgcardlink Nighthawk Scavenger %} is the unholy combination of {% mtgcardlink Tarmogoyf %} and {% mtgcardlink Vampire Nighthawk %}
 and seems very powerful on paper. However, for a few reasons I don't think it'll see play in Legacy Nic Fit.
-Goyf looks at both graveyard while this only looks at your own.
+Goyf looks at both graveyards while this only looks at your opponents'.
 You don't have as much control over your opponent's graveyard as your own and this means you can't also play {% mtgcardlink Leyline of the Void %}
 which is a very common Nic Fit sideboard card.
 Secondly, a three drop that doesn't do anything until the next turn seems like a pretty weak play in current Legacy with {% mtgcardlink Oko, Thief of Crowns %}.
