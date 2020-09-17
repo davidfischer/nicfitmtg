@@ -7,6 +7,9 @@ category:       setoverview
 image:          "/assets/img/posts/znr-agadeems-awakening.jpg"
 description:    "Evaluating new cards in Zendikar Rising (ZNR) with an emphasis on playability in Legacy Nic Fit."
 featured_card:  "Yasharn, Implacable Earth"
+
+seo:
+  date_modified: 2020-09-16
 ---
 
 This set has a few especially hard to evaluate cards in it
@@ -93,6 +96,18 @@ because of the upside of it having a better body, a possibly relevant kicker,
 and a lower casting cost.
 It won't make every [BUG Fit]({% link _pages/archetypes/bug-fit.md %}) list
 but I won't be surprised when I see it.
+
+
+> **Update**
+>
+> After posting this article, a few people convinced me that
+> {% mtgcardlink Felidar Retreat %} might be good enough to merit a mention.
+> Initially, I had pinned this new Retreat as a worse {% mtgcardlink Field of the Dead %}
+> that couldn't be found with {% mtgcardlink Primeval Titan %}.
+> However, it has a few things going for it.
+> It is hard to remove, it makes {% mtgcardlink Veteran Explorer %} a threat in all phases of the game,
+> it is good in multiples, and it combines nicely with Field itself.
+> It seems worth testing in a [Junk Fit]({% link _pages/archetypes/junk-fit.md %}) / lands matter deck.
 
 
 ## Possible for future consideration
