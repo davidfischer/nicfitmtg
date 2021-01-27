@@ -81,7 +81,7 @@ It was tried as just a 2-3 of in fair value oriented decks as well as in combos
 with cards like {% mtgcardlink Saffi Eriksdotter %} and {% mtgcardlink Renegade Rallier %}
 but nothing showed a lot of success over proven archetypes.
 
-Pleasant Kenobi piloted [Yawg Fit](https://www.twitch.tv/videos/511285502) in an elimination match
+Pleasant Kenobi piloted [Yawg Fit](https://www.youtube.com/watch?v=R-NB7y7hHKg) in an elimination match
 for Season 4 of the Legacy Premiere League.
 
 ### Pod Fit
