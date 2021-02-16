@@ -9,6 +9,10 @@ seo:
   date_modified: 2020-08-14
 ---
 
+
+> **This hasn't been updated since Oko was banned out of the format**
+
+
 BUG Fit is a fair Green-Black-Blue Nic Fit variant.
 While the exact mechanics of the deck can vary a bit, BUG Fit typically has a midrange control plan
 with a few bigger threats to such as {% mtgcardlink Primeval Titan %} and planeswalkers such as {% mtgcardlink Oko, Thief of Crowns %}.

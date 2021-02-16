@@ -33,8 +33,8 @@ Historically, Junk has a pretty good aggro matchup and a little better combo mat
 ### [BUG Fit]({% link _pages/archetypes/bug-fit.md %}) <i class="ms ms-g ms-cost"></i><i class="ms ms-b ms-cost"></i><i class="ms ms-u ms-cost"></i>
 Before 2019, the main reasons to splash blue in Nic Fit were {% mtgcardlink Leovold, Emissary of Trest %},
 {% mtgcardlink Baleful Strix %} and maybe you could make a case for {% mtgcardlink Glen Elendra Archmage %}.
-However, with the printing of {% mtgcardlink Oko, Thief of Crowns %} and {% mtgcardlink Uro, Titan of Nature's Wrath %},
-BUG has turned into one of the best fair archetypes.
+However, with the printing of {% mtgcardlink Uro, Titan of Nature's Wrath %},
+BUG has turned into one of the better fair archetypes.
 
 ### [Jund Fit]({% link _pages/archetypes/jund-fit.md %}) <i class="ms ms-g ms-cost"></i><i class="ms ms-b ms-cost"></i><i class="ms ms-r ms-cost"></i>
 Some of the main cards that splashing red adds are
