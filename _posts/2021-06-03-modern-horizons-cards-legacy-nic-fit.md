@@ -1,11 +1,11 @@
 ---
 layout:         post
-title:          Modern Horizons Cards for Legacy Nic Fit
+title:          Modern Horizons 2 Cards for Legacy Nic Fit
 date:           2021-06-03
 author:         davidfischer
 category:       metashift
 image:          "/assets/img/posts/mh2-grist-hunger-tide.jpg"
-description:    "Will Grist push Nic Fit into contention? Is Endurance going to be the green Force of Will? We discuss the possibilities for Legacy Nic Fit"
+description:    "Will Grist push Nic Fit into contention? Is Endurance going to be the green Force of Will? We discuss the possibilities from Modern Horizons 2 for Legacy Nic Fit."
 featured_card:  "Grist, the Hunger Tide"
 ---
 
