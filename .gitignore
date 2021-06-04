@@ -3,5 +3,6 @@ build
 .jekyll-cache
 .jekyll-metadata
 vendor
+.bundle
 .DS_Store
 node_modules
