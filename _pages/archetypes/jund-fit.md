@@ -6,7 +6,7 @@ description: Overview of Jund Fit, a fair Green-Black-Red Nic Fit variant. Read 
 image: "/assets/img/pages/jund-fit.jpg"
 
 seo:
-  date_modified: 2020-08-15
+  date_modified: 2021-06-27
 ---
 
 
@@ -24,7 +24,7 @@ Punishing Fire
 Huntmaster of the Fells // Ravager of the Fells
 Klothys, God of Destiny
 Kolaghan's Command
-Kroxa, Titan of Death's Hunger
+Greater Gargadon
 {% endmtghand %}
 
 
@@ -33,29 +33,29 @@ Kroxa, Titan of Death's Hunger
 
 ### Jund Fit starting list
 
-*June, 2020*
+*June, 2021*
 
 {% mtgdeck %}
 1 Primeval Titan
 4 Veteran Explorer
 1 Collector Ouphe
 1 Scavenging Ooze
-1 Questing Beast
+3 Greater Gargadon
 1 Klothys, God of Destiny
-1 Tireless Tracker
-1 Dryad Arbor
+1 Endurance
+1 Grist, the Hunger Tide
 1 Titania, Protector of Argoth
-1 Ramunap Excavator
-2 Dryad of the Ilysian Grove
 1 Plague Engineer
+1 Tireless Tracker
+1 Reclamation Sage
 2 Sylvan Library
-4 Abrupt Decay
+3 Abrupt Decay
 3 Punishing Fire
 1 Taiga
 1 Badlands
 2 Bayou
 3 Grove of the Burnwillows
-2 Field of the Dead
+1 Field of the Dead
 1 Forest
 1 Swamp
 2 Snow-Covered Forest
@@ -63,42 +63,40 @@ Kroxa, Titan of Death's Hunger
 1 Snow-Covered Swamp
 4 Verdant Catacombs
 3 Wooded Foothills
-1 Valakut, the Molten Pinnacle
-1 Ancient Tomb
-1 Wasteland
+1 Phyrexian Tower
 4 Cabal Therapy
 4 Green Sun's Zenith
 2 Thoughtseize
+3 Once Upon a Time
 
-SB: 2 Nihil Spellbomb
-SB: 1 Reclamation Sage
+SB: 2 Endurance
+SB: 1 Pernicious Deed
 SB: 1 Plague Engineer
 SB: 2 Cindervines
-SB: 3 Leyline of the Void
-SB: 2 Pyroblast
+SB: 3 Pyroblast
 SB: 2 Assassin's Trophy
-SB: 2 Veil of Summer
+SB: 2 Necromentia
+SB: 2 Carpet of Flowers
 {% endmtgdeck %}
 
 
-There's a few different directions Jund Fit can go and this deck is a less all-in version of Titan Dryad.
-It relies on ramp to get to {% mtgcardlink Primeval Titan %} which can end the game pretty quickly with {% mtgcardlink Field of the Dead %}
-or with {% mtgcardlink Valakut, the Molten Pinnacle %} and {% mtgcardlink Dryad of the Ilysian Grove %}.
-Unlike Titan Dryad which relies on disruption in the form of {% mtgcardlink Chalice of the Void %} and {% mtgcardlink Wasteland %},
-this deck relies more on {% mtgcardlink Cabal Therapy %} and {% mtgcardlink Punishing Fire %}.
+There's a few different directions Jund Fit can go and this deck uses a control plan to survive
+until it can cast {% mtgcardlink Titania, Protector of Argoth %} or {% mtgcardlink Primeval Titan %}
+both of which end the game pretty quickly.
+{% mtgcardlink Greater Gargadon %} has proven to be highly effective as an uncounterable
+sac outlet for {% mtgcardlink Veteran Explorer %}, but it really shines with Titania
+where it threatens to put 20-30 power on the board in a single turn by sacrificing our lands.
 
-Before the printing of {% mtgcardlink Field of the Dead %},
-some cards like {% mtgcardlink Dragonlord Atarka %}, {% mtgcardlink Ravager Wurm %},
-or even {% mtgcardlink Ruric Thar, the Unbowed %} were contenders for the top-end threat in Jund.
-They are all huge threats that take over the game and have unique abilities not usually available in green-black alone.
-However, since Field, {% mtgcardlink Primeval Titan %} is just too good to pass up.
+{% mtgcardlink Once Upon a Time %} is not a staple of most fair variants but it works well in this deck
+as a way to ensure you find an early Explorer or Gargadon.
+In the later game, it acts similarly to a cantrip and can hopefully find a mid- or late-game threat.
 
 
 ## Jund Fit's place in the meta
 
 The addition of {% mtgcardlink Punishing Fire %} to the core Nic Fit shell
 gives a big boost to the removal package and as a result the deck has a fantastic matchup
-against most aggressive decks like Death & Taxes, Maverick, Goblins, and Delver.
+against most aggressive decks like Death & Taxes, Maverick, Goblins, and a decent Delver matchup.
 While aggro decks usually aren't the weakness of Nic Fit, red makes the matchups that much better.
 
 One aggro deck that Jund doesn't have as good a matchup against is Eldrazi.
@@ -129,11 +127,7 @@ but they can be won. As a result, Ouphe is very frequently a main deck card in J
 
 On the whole, Jund Fit thrives in a combo-light environment and has very good matchups against aggro
 and decent matchups against most control decks
-but the combo matchups are even worse than other Nic Fit variants.
-As a result, as of this writing in mid-2020, Jund is among the weaker Nic Fit archetypes
-at least in the MTGO metagame due to the ubiquity of combo and control
-and the relative weakness in the meta of the decks that Jund would prey on like Death & Taxes.
-{% mtgcardlink Punishing Fire %} is at its weakest point in a long time and that is not good for this deck.
+but the combo matchups can be worse than other Nic Fit variants.
 
 
 ## Sideboarding
@@ -146,9 +140,8 @@ Cindervines
 {% endmtghand %}
 
 {% mtgcardlink Red Elemental Blast %} and {% mtgcardlink Pyroblast %} are among the best sideboard cards in the format.
-They provide a clean one for one answer to {% mtgcardlink Oko, Thief of Crowns %} for a single mana and they're good
-in a large variety of combo and fair matchups.
-By itself, it drastically changes the percentages in the {% mtgcardlink Show and Tell %} matchup
+They're good in a large variety of combo and fair matchups.
+By themselves, they drastically changes the percentages in the {% mtgcardlink Show and Tell %} matchup
 which is normally almost unwinnable for fair Nic Fit decks
 while also helping against combo decks like Painter, Storm, and {% mtgcardlink Doomsday %}.
 On the fair side, it's great against Miracles, Snow Control, and even Delver.
@@ -169,17 +162,18 @@ Against Storm, it usually turns off {% mtgcardlink Ad Nauseam %} lines
 and against Snow or Miracles it combined with {% mtgcardlink Klothys, God of Destiny %} can end the game while being
 very hard for those decks to deal with.
 It's also a serviceable sideboard card against artifact or equipment heavy decks.
+{% mtgcardlink Necromentia %} is similar to Slaughter Games but can also take key lands like {% mtgcardlink Dark Depths %} or {% mtgcardlink Thespian's Stage %} and so it's worth considering.
 
 Having access to {% mtgcardlink Punishing Fire %} on top of the usual Nic Fit removal like {% mtgcardlink Abrupt Decay %}
 makes the deck pretty good against creature-based strategies.
 However, unlike both [BUG Fit]({% link _pages/archetypes/bug-fit.md %}) and [Junk Fit]({% link _pages/archetypes/junk-fit.md %}),
 the deck frequently doesn't have as many ways to deal with {% mtgcardlink Dark Depths %} strategies.
 Depending on how common Depths is in your meta, you might consider sideboard cards like
-{% mtgcardlink Assassin's Trophy %}, {% mtgcardlink Liliana's Triumph %}, or even {% mtgcardlink Matsu-Tribe Sniper %} as answers.
+{% mtgcardlink Assassin's Trophy %}, {% mtgcardlink Sudden Edict %}, or even {% mtgcardlink Run Afoul %} as answers.
 
 Like most decks that don't have a lot of counter magic, Jund Fit is soft to fast combo decks like Reanimator,
 Turbo Depths, Storm, and Show & Tell. It is no surprise that most of the Jund Fit sideboard is dedicated to these matchups.
-Jund Fit usually packs 4-6 grave hate cards with {% mtgcardlink Leyline of the Void %} or {% mtgcardlink Surgical Extraction %} being most common,
+Jund Fit usually packs 4-6 grave hate cards with {% mtgcardlink Leyline of the Void %}, {% mtgcardlink Surgical Extraction %}, or the new {% mtgcardlink Endurance %} being most common,
 4 or so anti-combo cards ({% mtgcardlink Veil of Summer %} or {% mtgcardlink Cindervines %})
 with anti-blue cards rounding out the rest.
 
@@ -277,10 +271,8 @@ There's also a [separate primer]({% link _pages/archetypes/scapewish.md %}) for 
 
 ## Conclusion
 
-Jund Fit is in a bit of a tough spot right now in MTGO leagues
-but could be the right call in a local meta with a lot of aggressive decks.
-If and when aggressive decks represent a larger share of the metagame and {% mtgcardlink Punishing Fire %} feels like an amazing card again,
-Jund Fit will come back as well.
+Jund Fit was in a bit of a tough spot during the Oko meta
+but it's a fine call in a meta of aggressive decks.
 
 
 <div class="embed-responsive embed-responsive-16by9">
