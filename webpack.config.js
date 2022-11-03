@@ -15,44 +15,49 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
-    rules: [{
-        test: /\.scss$/,
+    rules: [
+      {
+        // https://webpack.js.org/guides/asset-management/#loading-fonts
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.s?css$/,
         use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader',
-          'sass-loader'
-        ]
-    }, {
-      // the file-loader emits files directly to OUTPUT_DIR/fonts
-      test: /\.(woff(2)?|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-      loader: 'file-loader?name=./fonts/[name].[ext]',
-    }, {
-      // Image loader
-      // the file-loader emits files directly to OUTPUT_DIR/img
-      test: /\.(png|gif|jpg|jpeg)$/,
-      loaders: ['file-loader?name=./img/[name].[ext]']
-    }]
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: (resourcePath, context) => {
+                return path.relative(path.dirname(resourcePath), context) + "/";
+              },
+            },
+          },
+          "css-loader",
+          "sass-loader",
+        ],
+      },
+    ],
   },
   optimization: {
-    minimizer: [
-      new TerserPlugin(),
-      new OptimizeCSSAssetsPlugin({})
-    ]
+    minimizer: [new TerserPlugin(), new OptimizeCSSAssetsPlugin({})],
   },
   plugins: [
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
-      filename: '[name].css',
-      path: OUTPUT_DIR,
-      chunkFilename: '[id].css'
+      filename: "[name].css",
+      chunkFilename: "[id].css",
     }),
 
     // Makes jQuery (required for bootstrap4) available to other JS includes
     // https://webpack.js.org/plugins/provide-plugin/
     new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery',
-      'window.jQuery': 'jquery'
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery",
     }),
-  ]
+  ],
 };
