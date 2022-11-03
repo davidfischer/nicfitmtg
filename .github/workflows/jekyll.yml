@@ -14,7 +14,10 @@ jobs:
       with:
         lfs: true
 
+    - name: Checkout LFS objects
+      run: git lfs checkout
+
     - name: Build Jekyll and Deploy to GitHub Pages
-      uses:  helaili/jekyll-action@2.0.1
-      env:
-        JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+      uses:  helaili/jekyll-action@v2
+      with:
+        token: ${{ secrets.JEKYLL_PAT }}
