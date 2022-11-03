@@ -11,8 +11,13 @@ jobs:
 
     - name: Checkout
       uses: actions/checkout@v2
+      with:
+        lfs: true
 
-    - name: Build
+    - name: Checkout LFS objects
+      run: git lfs checkout
+
+    - name: Build Jekyll
       uses: jerryjvl/jekyll-build-action@v1
 
     - name: HTML5 Validator
